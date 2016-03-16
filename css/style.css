@@ -16,3 +16,32 @@ img {
 body h1 {
     color: red;
 }
+
+/* Phones to Tablets and Desktop */
+
+@media screen and (max-width: 769px) {
+  .column{
+    float:none;
+  }
+  img {
+    width:auto;
+    height:200px;
+  }
+}
+
+@media print {
+  * {background: transparent !important;
+    box-shadow: none !important;
+    color: #000 !important;
+    text-shadow: none !important;
+    }
+
+    img {
+		display: none;
+	}
+  .column {
+    float:none;
+
+  
+  }
+}
