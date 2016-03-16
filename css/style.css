@@ -1,0 +1,18 @@
+.column {
+  float: left;
+  width: 30%;
+}
+
+.column p {
+  font-size: 75%;
+  font-weight: bold;
+}
+
+img {
+    width:auto;
+    height: 500px;
+}
+
+body h1 {
+    color: red;
+}
